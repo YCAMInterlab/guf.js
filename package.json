@@ -1,0 +1,28 @@
+{
+  "name": "guf",
+  "version": "1.0.0",
+  "description": "geometry utility functions (normals, etc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaali/guf.js.git"
+  },
+  "keywords": [
+    "geometry",
+    "utility",
+    "normals",
+    "webgl",
+    "computational",
+    "design",
+    "ycam"
+  ],
+  "author": "Syed Reza Ali <syed.reza.ali@gmail.com> (http://www.syedrezaali.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rezaali/guf.js/issues"
+  },
+  "homepage": "https://github.com/rezaali/guf.js#readme"
+}
