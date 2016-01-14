@@ -1,6 +1,6 @@
 {
   "name": "guf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "geometry utility functions (normals, etc)",
   "main": "index.js",
   "scripts": {
