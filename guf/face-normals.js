@@ -1,8 +1,13 @@
+var normalize = require('guf').normalizeArray;
 var calculateNormal = require('./calculate-normal');
 
 module.exports = function( verts, faces ) {
-  var positions = verts[0].constructor === Array ? normalizeArray( verts ) : verts;
-  var cells = faces[0].constructor === Array ? normalizeArray( faces ) : faces;
+  var positions = verts;
+  var con = verts[ 0 ].constructor;
+  if( con === Array || con == Float32Array ) {
+    positions = normalize( verts );
+  }
+  var cells = faces[ 0 ].constructor === Array ? normalize( faces ) : faces;
   var normals = [];
   var i0, i1, i2;
   var a = [];
