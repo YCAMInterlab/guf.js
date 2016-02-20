@@ -1,6 +1,6 @@
 {
   "name": "guf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "geometry utility functions (normals, etc)",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,5 @@
     "url": "https://github.com/YCAMInterlab/guf.js/issues"
   },
   "homepage": "https://github.com/YCAMInterlab/guf.js#readme",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
